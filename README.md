@@ -1,4 +1,5 @@
 # Moscow Events
+![Презентация](https://github.com/EreskinaAI/MoscowEvents/blob/main/res/MoscowEvents.gif "Презентация")
 
 Приложение Moscow Events позволяет пользователю просмотреть актуальные события по городу Москва. Эти события разделяются по категориям.
 
