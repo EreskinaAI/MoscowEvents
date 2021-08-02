@@ -32,6 +32,7 @@ final class EventsListVC: UIViewController {
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
 		navigationController?.setNavigationBarHidden(false, animated: animated)
+		eventsListView.update()
 		eventsListView.isLoading = true
 		presenter?.loadData()
 	}

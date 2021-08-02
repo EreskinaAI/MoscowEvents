@@ -50,6 +50,12 @@ final class SearchVC : UIViewController {
 		setupViews()
 		makeConstraints()
 	}
+
+	override func viewWillAppear(_ animated: Bool) {
+		super.viewWillAppear(animated)
+		navigationController?.setNavigationBarHidden(false, animated: animated)
+		eventsListView.update()
+	}
 }
 
 //MARK: - User methods

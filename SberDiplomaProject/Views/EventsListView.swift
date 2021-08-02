@@ -107,6 +107,11 @@ final class EventsListView: UIView {
 	func reloadCell(with index: Int) {
 		eventsTableView.reloadRows(at: [IndexPath(row: index, section: 0)], with: .automatic)
 	}
+
+	/// Обновить вью
+	func update() {
+		eventsTableView.reloadData()
+	}
 }
 
 //MARK: - User methods
